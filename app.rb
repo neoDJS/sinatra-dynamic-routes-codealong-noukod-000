@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/' do
-    "Who's bad ?"
+    <h1>Who's bad ?</h1>
   end
 
   # This is a sample static route.
